@@ -235,4 +235,4 @@ Pull requests with new signatures are welcome.
 
 ## License
 
-MIT
+[GNU General Public License v2.0](LICENSE)
