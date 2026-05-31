@@ -1,0 +1,8 @@
+services:
+  checker:
+    build: .
+    image: laravel-sca-checker
+    volumes:
+      - ${PROJECT_PATH:?Set PROJECT_PATH to your Laravel project root}:/project:ro
+    environment:
+      - PYTHONUNBUFFERED=1
